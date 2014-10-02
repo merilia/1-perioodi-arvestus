@@ -25,11 +25,16 @@
               }
           ?> 
         <h2>Juhuslik pilt</h2>
-         <?php
+          <?php
             echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.rand(1,12).'.jpg">';
           ?>
 
         <h2>Kõikide piltide väljastamine</h2>
+          <?php
+            for ($img = 1; $img<=12; $img++) {
+              echo '<img src="http://users.khk.ee/kaspar.naaber/svp/periood-1/arvestus/images/'.$img.'.jpg"/>';
+          }
+          ?>
       </section>
     </main>
 

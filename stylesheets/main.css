@@ -114,3 +114,7 @@ body, #site-container, .blog-post, #site-content, #site-footer {
   text-align: center;
   border-top: 1px solid #333;
 }
+img{
+  width:250px;
+  height:auto;
+}
